@@ -1,0 +1,24 @@
+{
+  "name": "nft-metadata-service",
+  "version": "1.0.0",
+  "description": "Bitcoin Wearables Metadata API Service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "author": "Leon Acosta <leon@dandelionlabs.io>",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "moment": "^2.22.2"
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
+  },
+  "engines": {
+    "node": "8.11.2"
+  }
+}

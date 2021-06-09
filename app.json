@@ -1,0 +1,7 @@
+{
+  "name": "Metadata API for Bitcoin Wearables' NFTs",
+  "description": "Metada API for Bitcoin Wearables' Non Fungible Tokens (NFTs).",
+  "repository": "https://github.com/bitcoin-wearables/nft-metadata-service",
+  "logo": "https://bitcoinwearables.org/wp-content/uploads/2021/05/bitcoin_wearables_logo_intro@4x.png",
+  "keywords": ["nft", "crypto", "bitcoin-wearables", "erc721", "erc1155", "node", "express", "static"]
+}
