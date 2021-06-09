@@ -26,4 +26,4 @@ Change metadata information by modifying:
 
 ## Troubleshooting
 
-If you have questions, contact us at hello@bitcoinwearables.org. We're very responsive!
+If you have any questions, send a hi to hello@bitcoinwearables.org.
