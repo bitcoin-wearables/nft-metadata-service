@@ -22,11 +22,11 @@ app.get('/contract/nft', function(req, res) {
   const data = {
     'name': 'Bitcoin Wearables',
     'description': 'NFTs for the authentic Bitcoin Wearables fashion brand.',
-    'image': '${HOST}/images/bitcoin_wearables_logo.png',
+    'image': `${HOST}/images/bitcoin_wearables_logo.png`,
     'external_link': 'https://bitcoinwearables.org'
   }
   res.send(data)
-}
+})
 
 app.get('/token/:token_id', function(req, res) {
   const tokenId = parseInt(req.params.token_id).toString()
