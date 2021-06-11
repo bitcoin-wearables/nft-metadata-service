@@ -18,7 +18,7 @@ app.get('/', function(req, res) {
   res.send("Bitcoin Wearables' NFT metadata service is running!");
 })
 
-app.get('/api/token/:token_id', function(req, res) {
+app.get('/token/:token_id', function(req, res) {
   const tokenId = parseInt(req.params.token_id).toString()
   const wearable = db[tokenId]
   const data = {
