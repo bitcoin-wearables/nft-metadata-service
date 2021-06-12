@@ -18,6 +18,15 @@ app.get('/', function(req, res) {
   res.send("Bitcoin Wearables' NFT metadata service is running!");
 })
 
+// api serving information for qr
+app.get('/qr_lecture/token/:token_address/:token_id', function(req, res) {
+  const tokenAddress = req.params.token_address
+  const tokenId = parseInt(req.params.token_id).toString()
+
+  res.redirect('https://polygonscan.com/token/'+tokenAddress+'?a='+tokenId)
+})
+
+// api serving contract-level metadata
 app.get('/contract/nft', function(req, res) {
   const data = {
     'name': 'Bitcoin Wearables',
@@ -28,6 +37,7 @@ app.get('/contract/nft', function(req, res) {
   res.send(data)
 })
 
+// api serving token-level metadata
 app.get('/token/:token_id', function(req, res) {
   const tokenId = parseInt(req.params.token_id).toString()
   const wearable = db[tokenId]
