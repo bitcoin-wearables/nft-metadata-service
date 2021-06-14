@@ -2,7 +2,7 @@
 
 The source code in this repo is used to make the API that serves metadata about Bitcoin Wearables' tokens to marketplaces like [OpenSea](https://opensea.io) and other third parties. 
 This small solution is based on the ([ERC-721](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md) or [ERC-1155](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1155.md)) standard. The metadata for each token only includes a title, a description and an image.
-This solution also serves information based on a link shared by QR; in the first scenario, only returning the address to the blockchain explorer.
+This solution also serves information based on a link shared by QR; in the first scenario, only returning the address to the blockchain explorer. Through the APIs, we are able to read Contract-level metadata, read Token-level metadata and trigger QR lecture actions.
 
 - [Getting Started](#getting-started)
   - [Requirements](#requirements)
